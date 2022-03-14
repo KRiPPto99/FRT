@@ -1,10 +1,10 @@
 <!-- connection.php-->
 <!-- Connection To MYSQL Database -->
 <?php
-    $server = "localhost";
-    $username = "root";
-    $password = "";
-    $db = "CRS";
+    $server = "127.0.0.1:55059";
+    $username = "azure";
+    $password = "6#vWHD_$";
+    $db = "localdb";
 
     $con = mysqli_connect($server,$username,$password,$db);
 
